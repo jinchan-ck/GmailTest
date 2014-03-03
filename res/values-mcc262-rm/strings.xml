@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">Etichetta Google Mail</string>
+    <string name="read_attachment_preview_label">leger la prevista da las agiuntas dals e-mails da Google Mail</string>
+    <string name="read_attachment_preview_desc">Permetta a questa applicaziun da leger las previstas da las agiuntas dals e-mails da Google Mail.</string>
+    <string name="search_title">Google Mail</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/y_button"
+        android:alphabeticShortcut="y"
+        android:icon="@drawable/ic_menu_archive"/>
+    <item
+        android:id="@id/change_labels"
+        android:icon="@drawable/ic_menu_navigate"
+        android:title="@string/menu_change_labels"/>
+    <item
+        android:id="@id/inside_conversation_unread"
+        android:icon="@drawable/ic_menu_gmail_mark_unread"
+        android:title="@string/mark_unread"/>
+    <item
+        android:id="@id/mark_important"
+        android:title="@string/mark_important"/>
+    <item
+        android:id="@id/back_to_inbox"
+        android:icon="@drawable/ic_menu_inbox"
+        android:title="@string/back_to_inbox"/>
+    <item
+        android:id="@id/mute"
+        android:icon="@drawable/ic_menu_mute"
+        android:title="@string/mute"/>
+    <item
+        android:id="@id/star"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_menu_star"/>
+    <item
+        android:id="@id/report_spam"
+        android:icon="@drawable/ic_menu_report_spam"
+        android:title="@string/report_spam"/>
+    <item
+        android:id="@id/preferences"
+        android:icon="@*android:drawable/ic_menu_preferences"
+        android:title="@string/menu_preferences"/>
+    <item
+        android:id="@id/help_info_menu_item"
+        android:icon="@*android:drawable/ic_menu_help"
+        android:title="@string/help_and_info"/>
+    <item
+        android:id="@id/select_text"
+        android:title="@string/select_text"/>
+
+</menu>

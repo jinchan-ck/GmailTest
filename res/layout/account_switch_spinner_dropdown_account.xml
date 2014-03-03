@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/account_dropdown_item_height" style="?android:attr/spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/account_dropdown_item_height" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <TextView android:ellipsize="end" android:id="@id/dropdown_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" />
+        <TextView android:ellipsize="end" android:id="@id/dropdown_second" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <View android:id="@id/dropdown_color" android:layout_width="@dimen/color_block_width" android:layout_height="@dimen/color_block_height" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/dropdown_unread" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UnreadCount" />
+    </FrameLayout>
+</LinearLayout>

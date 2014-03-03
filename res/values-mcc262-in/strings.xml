@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">Label Google Mail</string>
+    <string name="read_attachment_preview_label">baca pratinjau lampiran Google Mail</string>
+    <string name="read_attachment_preview_desc">Mengizinkan aplikasi ini membaca pratinjau lampiran Google Mail Anda.</string>
+    <string name="search_title">Google Mail</string>
+</resources>

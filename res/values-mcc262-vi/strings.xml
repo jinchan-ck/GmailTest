@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Gmail</string>
+    <string name="activity_create_label_shortcut">Nhãn Gmail</string>
+    <string name="read_attachment_preview_label">đọc bản xem trước tệp đính kèm trong Gmail</string>
+    <string name="read_attachment_preview_desc">Cho phép ứng dụng này đọc bản xem trước tệp đính kèm trong Gmail của bạn.</string>
+    <string name="search_title">Gmail</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.ConversationPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_pane"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:visibility="gone" >
+
+    <android.support.v4.view.PagerTitleStrip
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/position_bar_background"
+        android:includeFontPadding="false"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:textAppearance="?android:textAppearanceSmallInverse" />
+
+</com.android.mail.browse.ConversationPager>

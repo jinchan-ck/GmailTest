@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">Google Mail 라벨</string>
+    <string name="read_attachment_preview_label">Google Mail 메일 첨부파일 미리보기 읽기</string>
+    <string name="read_attachment_preview_desc">애플리케이션이 Google Mail 첨부파일 미리보기를 읽도록 허용합니다.</string>
+    <string name="search_title">Google Mail</string>
+</resources>

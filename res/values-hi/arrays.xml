@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>जवाब दें</item>
+        <item>सभी को प्रत्‍युत्तर दें</item>
+        <item>अग्रेषित करें</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>सफल</item>
+        <item>कोई कनेक्शन नहीं.</item>
+        <item>साइन इन नहीं किया जा सका.</item>
+        <item>सुरक्षा त्रुटि.</item>
+        <item>समन्‍वयित नहीं किया जा सका.</item>
+        <item>आंतरिक त्रुटि</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>सिस्टम</item>
+        <item>अक्सर प्रयुक्त</item>
+        <item>सभी लेबल</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>नया</item>
+        <item>पुराना</item>
+        <item>वार्तालाप सूची</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>आपके द्वारा संग्रहीत करने या हटाने के बाद नई बातचीत दिखाएं</item>
+        <item>संग्रहीत करने या हटाने के बाद पुरानी बातचीत दिखाएं</item>
+        <item>संग्रहीत करने या हटाने के बाद बातचीत की सूची दिखाएं</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>कोई प्रभाव नहीं</item>
+        <item>संग्रह करता है या हटाता है</item>
+        <item>हमेशा हटाता है</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>कोई प्रभाव नहीं</item>
+        <item>इनबॉक्स: बातचीत संग्रहीत करता है. नियमित लेबल: वर्तमान लेबल निकालता है. सिस्टम लेबल, जैसे सभी मेल या भेजे गए: बातचीत हटाता है.</item>
+        <item>बातचीत को हमेशा हटाता है</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>बहुत छोटा</item>
+        <item>छोटा</item>
+        <item>सामान्य</item>
+        <item>बड़ा</item>
+        <item>बहुत बड़ा</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>संदेशों की सामग्री बहुत छोटे पाठ में दिखाएं</item>
+        <item>संदेशों की सामग्री छोटे पाठ में दिखाएं</item>
+        <item>संदेश की सामग्री सामान्‍य आकार के पाठ में दिखाएं</item>
+        <item>संदेशों की सामग्री बड़े पाठ में दिखाएं</item>
+        <item>संदेशों की सामग्री बहुत बड़े पाठ में दिखाएं</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>स्‍क्रीन में ऊपर हमेशा संदेश कार्रवाइयां दिखाएं</item>
+        <item>जब पोट्रेट पर घुमाया जाए, केवल तब ही स्‍क्रीन में ऊपर संदेश कार्रवाइयां दिखाएं</item>
+        <item>संदेश शीर्षलेख के बाहर संदेश कार्यवाहियां न दिखाएं</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>हमेशा दिखाएं</item>
+        <item>केवल पोट्रेट में दिखाएं</item>
+        <item>न दिखाएं</item>
+    </string-array>
+</resources>

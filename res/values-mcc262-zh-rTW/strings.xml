@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">Google Mail 標籤</string>
+    <string name="read_attachment_preview_label">讀取 Google Mail 附件預覽畫面</string>
+    <string name="read_attachment_preview_desc">允許此應用程式讀取您的 Google Mail 附件預覽畫面。</string>
+    <string name="search_title">Google Mail</string>
+</resources>

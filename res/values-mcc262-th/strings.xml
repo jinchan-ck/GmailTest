@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">ป้ายกำกับ Google Mail</string>
+    <string name="read_attachment_preview_label">อ่านตัวอย่างเอกสารแนบของ Google Mail</string>
+    <string name="read_attachment_preview_desc">อนุญาตให้แอปพลิเคชันนี้อ่านตัวอย่างเอกสารแนบ Google Mail ของคุณ</string>
+    <string name="search_title">Google Mail</string>
+</resources>

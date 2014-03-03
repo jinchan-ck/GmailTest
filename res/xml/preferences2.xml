@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Work in Progress" android:key="work-in-progress">
+        <CheckBoxPreference android:title="Fast Switching" android:key="fast-switching" android:summary="When you have exactly two accounts, switch between them from the menu" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

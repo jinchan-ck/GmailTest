@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Google-e-post</string>
+    <string name="activity_create_label_shortcut">Gmail-etiketter</string>
+    <string name="read_attachment_preview_label">lese forhåndsvisninger av Gmail-vedlegg</string>
+    <string name="read_attachment_preview_desc">Gir applikasjonen lov til å lese forhåndsvisninger av Gmail-vedleggene dine.</string>
+    <string name="search_title">Gmail</string>
+</resources>

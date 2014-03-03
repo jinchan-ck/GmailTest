@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expanded" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/touchable_area_expanded" android:background="@drawable/message_header_expanded_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@id/from_expanded" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@id/paperclip_expanded" android:background="@drawable/ic_email_attachment_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <CheckBox android:id="@id/star_expanded" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/starStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/second_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:ellipsize="end" android:id="@id/addressing_expanded" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:ellipsize="end" android:id="@id/addressing_cc_expanded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/date_expanded" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/extra_buttons_panel" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/show_images_layout" android:background="@drawable/email_thumbnail_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_show_images" android:layout_weight="1.0" />
+            <Button android:id="@id/show_images_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_images" style="?android:attr/buttonStyleSmall" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/message_body_empty" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <WebView android:id="@id/message_body" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/message_draft_button_panel" android:background="@drawable/email_button_bkg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <Button android:id="@id/message_draft_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/reply_buttons" android:background="@drawable/email_button_bkg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <Button android:id="@id/reply_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reply" android:layout_weight="0.25" style="?android:attr/buttonStyleSmall" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.12" />
+        <Button android:id="@id/reply_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reply_all" android:layout_weight="0.25" style="?android:attr/buttonStyleSmall" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.13" />
+        <Button android:id="@id/forward_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forward" android:layout_weight="0.25" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+</LinearLayout>

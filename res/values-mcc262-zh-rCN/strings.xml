@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Gmail</string>
+    <string name="activity_create_label_shortcut">Gmail 标签</string>
+    <string name="read_attachment_preview_label">读取 Gmail 附件预览</string>
+    <string name="read_attachment_preview_desc">允许此应用程序读取您的 Gmail 附件预览。</string>
+    <string name="search_title">Gmail</string>
+</resources>

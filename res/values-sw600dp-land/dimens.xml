@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chip_padding">8.0dip</dimen>
+    <dimen name="chip_height">32.0dip</dimen>
+    <dimen name="chip_text_size">14.0sp</dimen>
+    <dimen name="compose_scrollview_width">800.0dip</dimen>
+    <dimen name="spinner_frame_width">196.0dip</dimen>
+    <dimen name="search_view_width">500.0dip</dimen>
+    <dimen name="folder_list_pane_width">240.0dip</dimen>
+    <dimen name="undo_bar_width_list">718.0dip</dimen>
+    <dimen name="undo_bar_width_conv">600.0dip</dimen>
+    <dimen name="undo_bar_width_conv_list">360.0dip</dimen>
+    <dimen name="undo_bar_width_search_list">380.0dip</dimen>
+    <dimen name="compose_area_left_padding">100.0dip</dimen>
+    <dimen name="compose_area_right_padding">100.0dip</dimen>
+</resources>

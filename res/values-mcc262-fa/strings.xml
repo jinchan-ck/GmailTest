@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">برچسب Google Mail</string>
+    <string name="read_attachment_preview_label">خواندن پیش نمایش های پیوست Google Mail</string>
+    <string name="read_attachment_preview_desc">به این برنامه کاربردی اجازه می دهد پیش نمایش های پیوست Google Mail شما را بخواند.</string>
+    <string name="search_title">Google Mail</string>
+</resources>

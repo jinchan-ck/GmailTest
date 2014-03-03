@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Balas</item>
+        <item>Balas kepada semua</item>
+        <item>Kirim semula</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Berjaya</item>
+        <item>Tiada sambungan.</item>
+        <item>Tidak dapat melog masuk.</item>
+        <item>Ralat keselamatan.</item>
+        <item>Tidak dapat menyegerakkan.</item>
+        <item>Ralat Dalaman</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Sistem</item>
+        <item>Kerap Digunakan</item>
+        <item>Semua Label</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Lebih baharu</item>
+        <item>Lebih lama</item>
+        <item>Senarai perbualan</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Tunjukkan perbualan yang lebih baharu selepas anda mengarkib atau memadam</item>
+        <item>Tunjukkan perbualan yang lebih lama selepas anda mengarkib atau memadam</item>
+        <item>Tunjukkan senarai perbualan selepas anda mengarkib atau memadam</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>Tidak mempunyai kesan</item>
+        <item>Arkib atau memadam</item>
+        <item>Sentiasa memadam</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>Tidak mempunyai kesan</item>
+        <item>Peti masuk: mengarkib perbualan. Label tetap: mengalih keluar label semasa. Label sistem seperti Semua mel atau Dihantar: memadam perbualan.</item>
+        <item>Sentiasa memadam perbualan</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Sangat kecil</item>
+        <item>Kecil</item>
+        <item>Biasa</item>
+        <item>Besar</item>
+        <item>Sangat Besar</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Paparkan kandungan mesej dalam teks sangat kecil</item>
+        <item>Paparkan kandungan mesej dalam teks kecil</item>
+        <item>Paparkan kandungan mesej dalam saiz teks yang biasa</item>
+        <item>Paparkan kandungan mesej dalam teks besar</item>
+        <item>Paparkan kandungan mesej dalam teks sangat besar</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>Sentiasa tunjukkan tindakan mesej di bahagian atas skrin</item>
+        <item>Hanya tunjukkan tindakan mesej di bahagian atas skrin apabila diputarkan kepada potret</item>
+        <item>Jangan tunjukkan tindakan mesej di luar pengepala mesej</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>Sentiasa tunjukkan</item>
+        <item>Hanya tunjukkan dalam potret</item>
+        <item>Jangan tunjukkan</item>
+    </string-array>
+</resources>

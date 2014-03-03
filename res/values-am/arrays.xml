@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>መልስ</item>
+        <item>ለሁሉም ምላሽ ስጥ</item>
+        <item>አስተላልፍ</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>ተሳክቷል</item>
+        <item>ግንኙነት የለም።</item>
+        <item>በመለያ መግባት አልተቻለም።</item>
+        <item>የደህንነት ስህተት።</item>
+        <item>ማመሳሰል አልተቻለም።</item>
+        <item>ውስጣዊ ስህተት</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>ስርዓት</item>
+        <item>በብዛት ጥቅም ላይ የዋሉ</item>
+        <item>ሁሉም መለያዎች</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>ይበልጥ አዲስ</item>
+        <item>የቆዩ</item>
+        <item>የውይይት ዝርዝር</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>ከመዘገቡ ወይም ከሰረዙ በኋላ አዲስ ውይይት ያሳዩ</item>
+        <item>ከመዘገቡ ወይም ከሰረዙ በኋላ የቆየ ውይይት ያሳዩ</item>
+        <item>ከመዘገቡ ወይም ከሰረዙ በኋላ የውይይት ዝርዝር ያሳዩ</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>ምንም ውጤት የለውም</item>
+        <item>ወደ ማህደር ያቁራል ወይም ይሰርዛል</item>
+        <item>ሁልጊዜ ይሰርዛል</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>ምንም ውጤት የለውም</item>
+        <item>ገቢ መልዕክት ሳጥን፦ ውይይቱን ወደ ማህደር ያቁራል። መደበኛ የመለያ ስሞች፦ የአሁኑን የመለያ ስም ያስወግደዋል። እንደ ሁሉም መልዕክት ወይም የተላኩ ያሉ የስርዓት መለያ ስሞች፦ ውይይቱን ይሰርዛል።</item>
+        <item>ሁልጊዜ ውይይትን ይሰርዛል</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>ትንሽ</item>
+        <item>አነስተኛ</item>
+        <item>መደበኛ</item>
+        <item>ትልቅ</item>
+        <item>ግዙፍ</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>የመልዕክቶችን ይዘት በትንሽ-ፅሁፍ መጠን አሳይ</item>
+        <item>የመልዕክቶችን ይዘት በአነስተኛ-ፅሁፍ መጠን አሳይ</item>
+        <item>"የመልዕክቶችን ይዘት በመደበኛ-ፅሁፍመጠን  አሳይ"</item>
+        <item>የመልዕክቶችን ይዘት በትልቅ- ፅሁፍ መጠን አሳይ</item>
+        <item>የመልዕክቶችን ይዘት በከፍተኛ-ፅሁፍ መጠን አሳይ</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>ሁልጊዜ የመልዕክት ድርጊቶችን ከማያ በላይ አሳይ</item>
+        <item>በቁመት ስታሽከረክር ከማያው ላይ የመልዕክት እርምጃዎችን ብቻ አሳይ።</item>
+        <item>የመልዕክት ድርጊትን ከመልዕክት ራስጌ ውጪ አታሳይ</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>ሁልጊዜ አሳይ</item>
+        <item>በቁመት ሁነታ ብቻ አሳይ</item>
+        <item>አታሳይ</item>
+    </string-array>
+</resources>

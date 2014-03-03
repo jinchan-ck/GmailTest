@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Phendula</item>
+        <item>Phendula konke</item>
+        <item>Dlulisa</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Impumelelo</item>
+        <item>Akukho ukuxhumana.</item>
+        <item>Ayikwazanga ukungena ngemvume.</item>
+        <item>Iphutha lokuphepha.</item>
+        <item>Ayikwazanga ukuvumelanisa.</item>
+        <item>Iphutha langaphakathi</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Uhlelo</item>
+        <item>Okusetshenziswa kakhulu</item>
+        <item>Wonke amalebula</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Okusha kakhulu</item>
+        <item>Okudala</item>
+        <item>Uhlu lwengxoxo</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Bonisa inkulumo entsha ngemva kokusula noma kokufaka kungobo yomlando</item>
+        <item>Bonisa inkulumo endadlana ngemva kokufaka kungobo yomlando noma ususe</item>
+        <item>Bonisa uhlu lwenkulumo ngemva kokufaka kungobo yomlando noma ususe</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>Akunamthelela</item>
+        <item>Okufakwe kungobo yomlandlo noma okususiwe</item>
+        <item>Okususwa njalo</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>Akunamthelela</item>
+        <item>"Ibhokisi lomilayezo engenayo: izinkulumo ezifakwe kungobo yomlandlo. Amalebuli avamile: isusa ilebuli yamanje. Amalebuli ohlelo njengokuthi Onke  amameyili noma Okuthunyelwe: izinkulumo ezisusiwe."</item>
+        <item>Uhlala esusa ingxoxo</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Ncane kakhulu</item>
+        <item>Ncane</item>
+        <item>Jwayelekile</item>
+        <item>Okukhulu</item>
+        <item>Kukhulu kakhulu</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Bonisa okuqukethwe kwemilayezo kumbhalo wosayizi omncane kakhulu</item>
+        <item>Bonisa okuqukethwe kwemiyalezo ngombhalo wosayizi omncane</item>
+        <item>Bonisa okuqukethwe kwemiyalezo kumbhalo wosayizi ovamile</item>
+        <item>Bonisa okuqukethwe kwemilayezo kumbhalo wosayizi omkhulu</item>
+        <item>Bonisa okuqukethwe kwemilayezo ngombhalo wosayizi omkhulu kakhulu</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>Bonisa njalo izenzo zemlayezo phezu kwesikrini</item>
+        <item>Bonisa kuphela izenzo zemlayezo phezu kwesikrini uma ijikelezwe ku-potrait</item>
+        <item>Ungakhombisi le myalezo ngaphandle kwesihloko somyalezo</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>Bonisa njalo</item>
+        <item>Bonisa kuphela ku-potrait</item>
+        <item>Ungabonisi</item>
+    </string-array>
+</resources>

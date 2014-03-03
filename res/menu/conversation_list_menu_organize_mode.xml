@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_star" android:id="@id/star" android:title="@string/star" android:alphabeticShortcut="s" />
+    <item android:icon="@drawable/ic_menu_gmail_mark_read" android:id="@id/read_unread" android:title="@string/read_unread" />
+    <item android:icon="@drawable/ic_menu_mark_important" android:id="@id/mark_important" android:title="@string/mark_important" />
+    <item android:icon="@drawable/ic_menu_report_spam" android:id="@id/report_spam" android:title="@string/report_spam" />
+    <item android:icon="@drawable/ic_menu_mute" android:id="@id/mute" android:title="@string/mute" />
+    <item android:icon="@drawable/ic_menu_gmail_deselect_mail" android:id="@id/deselect_all" android:title="@string/deselect_all" />
+    <item android:icon="@*android:drawable/ic_menu_help" android:id="@id/help_info_menu_item" android:title="@string/help_and_info" />
+    <item android:icon="@*android:drawable/ic_menu_info_details" android:id="@id/about_menu_item" android:title="@string/about_menu_item" />
+</menu>

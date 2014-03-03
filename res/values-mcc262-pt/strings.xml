@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">E-mail do Google</string>
+    <string name="activity_google_mail">E-mail do Google</string>
+    <string name="activity_create_label_shortcut">Marcador do e-mail do Google</string>
+    <string name="read_attachment_preview_label">ler visualizações do anexo do e-mail do Google</string>
+    <string name="read_attachment_preview_desc">Permite que este aplicativo leia as visualizações de anexo do seu e-mail do Google.</string>
+    <string name="search_title">E-mail do Google</string>
+</resources>

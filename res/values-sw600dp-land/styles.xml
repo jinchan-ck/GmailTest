@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AccountSwitchSpinnerItem" parent="@style/PlainSpinnerDropdown">
+        <item name="android:layout_width">312.0dip</item>
+    </style>
+    <style name="unreadCountActionBarTablet" parent="@style/UnreadCountActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">26.0dip</item>
+    </style>
+    <style name="ComposeArea">
+        <item name="android:layout_width">@dimen/compose_scrollview_width</item>
+    </style>
+</resources>

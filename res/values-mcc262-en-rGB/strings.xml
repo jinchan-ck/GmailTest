@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Gmail</string>
+    <string name="activity_google_mail">Gmail</string>
+    <string name="activity_create_label_shortcut">Gmail label</string>
+    <string name="read_attachment_preview_label">read Gmail attachment previews</string>
+    <string name="read_attachment_preview_desc">Allows this application to read your Gmail attachment previews.</string>
+    <string name="search_title">Gmail</string>
+</resources>

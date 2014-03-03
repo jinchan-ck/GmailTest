@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_gmail">Google Mail</string>
+    <string name="activity_google_mail">Google Mail</string>
+    <string name="activity_create_label_shortcut">„Google Mail“ etiketė</string>
+    <string name="read_attachment_preview_label">skaityti „Google Mail“ priedų peržiūras</string>
+    <string name="read_attachment_preview_desc">Leidžia šiai programai nuskaityti jūsų „Google Mail“ priedų peržiūras.</string>
+    <string name="search_title">Google Mail</string>
+</resources>

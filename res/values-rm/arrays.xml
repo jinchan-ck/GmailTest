@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Fitg pitschna</item>
+        <item>Pitschen</item>
+        <item>Normal</item>
+        <item>Grond</item>
+        <item>Fitg grond</item>
+    </string-array>
+</resources>

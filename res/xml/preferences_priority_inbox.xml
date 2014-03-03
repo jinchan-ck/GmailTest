@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_title">
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_priority_inbox" android:key="priority-inbox" android:summary="@string/preferences_priority_inbox_summary" android:defaultValue="false" />
+        <EditTextPreference android:singleLine="false" android:title="@string/preferences_signature_title" android:key="signature" android:summary="@string/preferences_signature_summary" android:dialogTitle="@string/preferences_signature_dialog_title" />
+        <com.google.android.gm.MultiListPreference android:entries="@array/prefEntries_confirmActions" android:title="@string/preferences_confirm_actions_title" android:key="confirm-actions" android:summary="@string/preferences_confirm_actions_summary" android:defaultValue="@string/prefDefault_confirmActions" android:dialogTitle="@string/prefDialogTitle_confirmActions" android:entryValues="@array/prefValues_confirmActions" />
+        <CheckBoxPreference android:title="@string/preferences_actionStrip_action_title" android:key="action-strip-action-reply-all" android:summary="@string/preferences_actionStrip_action_summary" android:defaultValue="false" />
+        <ListPreference android:entries="@array/prefEntries_autoAdvance" android:title="@string/preferences_auto_advance_title" android:key="auto-advance" android:summary="@string/preferences_auto_advance_summary" android:defaultValue="@string/prefDefault_autoAdvance" android:dialogTitle="@string/prefDialogTitle_autoAdvance" android:entryValues="@array/prefValues_autoAdvance" />
+        <ListPreference android:entries="@array/prefEntries_messageTextSize" android:title="@string/preferences_message_text_size_title" android:key="message-text" android:defaultValue="@string/prefDefault_messageTextSize" android:dialogTitle="@string/prefDialogTitle_messageTextSize" android:entryValues="@array/prefValues_messageTextSize" />
+        <CheckBoxPreference android:title="@string/preferences_allow_batch_title" android:key="allow-batch" android:summary="@string/preferences_allow_batch_summary" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/clear_history_title" android:key="clear-search-history" android:summary="@string/clear_history_summary" />
+        <PreferenceScreen android:title="@string/preferences_synchronization_title" android:summary="@string/preferences_synchronization_summary">
+            <intent android:targetPackage="com.google.android.gm" android:action="android.intent.action.MAIN" android:targetClass="com.google.android.gm.LabelsSynchronizationSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_notifications">
+        <CheckBoxPreference android:title="@string/preferences_notifications_enable" android:key="enable-notifications" android:summary="@string/preferences_notifications_summary" android:defaultValue="true" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_ringtone" android:key="ringtone" android:dependency="enable-notifications" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <ListPreference android:entries="@array/prefEntries_vibrateWhen" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_vibrateWhen" android:key="vibrateWhen" android:dependency="enable-notifications" android:defaultValue="@string/prefDefault_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_vibrateWhen" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_unobtrusive_enable" android:key="unobtrusive" android:summary="@string/preferences_unobtrusive_summary" android:dependency="enable-notifications" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

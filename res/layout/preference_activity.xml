@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/signature_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preference_activity_signature_view_text" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/signature_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/signature_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preference_activity_signature_change_text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

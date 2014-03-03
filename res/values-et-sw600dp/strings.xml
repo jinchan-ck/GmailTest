@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_manage_folders">Halda silte</string>
+    <string name="menu_folder_options">Halda silte</string>
+    <string name="add_cc_label">+ koopia/pimekoopia</string>
+    <string name="add_bcc_label">+ pimekoopia</string>
+    <string name="menu_label_options">Halda silte</string>
+</resources>

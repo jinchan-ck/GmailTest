@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:drawable/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/reply_mode" android:text="@string/reply" style="@style/composeModeStyle" />
+    <TextView android:id="@id/replyall_mode" android:text="@string/reply_all" style="@style/composeModeStyle" />
+    <TextView android:id="@id/forward_mode" android:text="@string/forward" style="@style/composeModeStyle" />
+</LinearLayout>

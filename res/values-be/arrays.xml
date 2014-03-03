@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Адказаць</item>
+        <item>Адказаць усім</item>
+        <item>Наперад</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Паспяхова</item>
+        <item>Няма злучэння.</item>
+        <item>Не атрымалася ўвайсці.</item>
+        <item>Памылка бяспекi.</item>
+        <item>Не атрымалася сінхранізаваць.</item>
+        <item>Унутраная памылка</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Сістэма</item>
+        <item>Часта выкарыстоўваецца</item>
+        <item>Паказаць усе цэтлiкi</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Больш новая</item>
+        <item>Больш ранняя</item>
+        <item>Спіс гутарак</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Паказаць новую размову пасля выдалення або архівацыi</item>
+        <item>Паказаць старэйшую размову пасля выдалення, або архівацыі</item>
+        <item>Паказаць спiс размоў пасля архiвацыi або выдалення</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>Няма эфекту</item>
+        <item>Архівы або выдаленыя</item>
+        <item>Заўсёды выдаленыя</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>Няма эфекту</item>
+        <item>Уваходныя: архівiруе размову. Рэгулярныя цэтлiкi: выдаляюць бягучую пазнаку. Сiстэмныя цэтлiкi, напрыклад, \"Уся пошта\" або \"Адпраўленыя\": выдаляе размову.</item>
+        <item>Заўсёды выдаляе размову</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Дробны</item>
+        <item>Малы</item>
+        <item>Звычайны</item>
+        <item>Вялікі</item>
+        <item>Вялiзны</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Паказваць змесціва паведамленняў маленькім шрыфтам</item>
+        <item>Адлюстраванне змесціва паведамленняў дробным шрыфтам</item>
+        <item>Адл. змесціва пав. шрыфтам звычайнага памеру</item>
+        <item>Паказваць змесціва паведамленняў вялікім шрыфтам</item>
+        <item>Паказаць змест паведамленняў вялікім шрыфтам</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>Заўсёды паказваць дзеянні паведамленняў уверсе экрана</item>
+        <item>Паказваць толькі паведамленні дзеянняў уверсе экрана пры павароце ў партрэтны рэжым</item>
+        <item>Не паказваць дзеянні паведамленняў па-за загалоўкам паведамлення</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>Заўсёды паказваць</item>
+        <item>Паказваць толькі ў партрэтным рэжыме</item>
+        <item>Не паказваць</item>
+    </string-array>
+</resources>
